@@ -1,0 +1,28 @@
+<Window
+    x:Class="MVVMTest.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MVVMTest.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:vm="clr-namespace:MVVMTest.ViewModels"
+    Title="MainWindow"
+    Width="350"
+    Height="300"
+    d:DataContext="{d:DesignInstance Type=vm:MainWindowViewModel,
+                                     IsDesignTimeCreatable=True}"
+    ui:WindowHelper.UseModernWindowStyle="True"
+    mc:Ignorable="d">
+    <StackPanel>
+		<TextBox Margin="10" Text="{Binding Value1, UpdateSourceTrigger=PropertyChanged}" />
+		<TextBox Margin="10" Text="{Binding Value2, UpdateSourceTrigger=PropertyChanged}" />
+
+		<Button
+			Margin="10"
+			Command="{Binding CalculateCommand}"
+			Content="Calculate" />
+
+		<TextBlock Margin="10" Text="{Binding Result}" />
+    </StackPanel>
+</Window>
