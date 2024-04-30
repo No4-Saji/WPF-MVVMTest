@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ohj4+OEsXzn6l/WUuZuMLlLReb/BmvQ6/XtEBw2rZ7ihip0OzSAYTNxo++24mxeueB1h7mWYPrsH1WtwQyV0Iw==",
+  "dgSpecHash": "pO+SGdX2aBQx0PG1N9NjOvkp3ry0fg6lOI3sgvpaEcq5YHUrpzvLDhq4JlGTxD5tANt1voceDwKIC2N3aEmkhw==",
   "success": true,
-  "projectFilePath": "C:\\MVVMTest\\MVVMTest\\MVVMTest.csproj",
+  "projectFilePath": "C:\\fork\\MVVMTest\\MVVMTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\No4sajiryuku\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\No4sajiryuku\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",

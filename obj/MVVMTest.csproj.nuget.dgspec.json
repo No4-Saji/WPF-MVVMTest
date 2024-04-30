@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MVVMTest\\MVVMTest\\MVVMTest.csproj": {}
+    "C:\\fork\\MVVMTest\\MVVMTest.csproj": {}
   },
   "projects": {
-    "C:\\MVVMTest\\MVVMTest\\MVVMTest.csproj": {
+    "C:\\fork\\MVVMTest\\MVVMTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MVVMTest\\MVVMTest\\MVVMTest.csproj",
+        "projectUniqueName": "C:\\fork\\MVVMTest\\MVVMTest.csproj",
         "projectName": "MVVMTest",
-        "projectPath": "C:\\MVVMTest\\MVVMTest\\MVVMTest.csproj",
+        "projectPath": "C:\\fork\\MVVMTest\\MVVMTest.csproj",
         "packagesPath": "C:\\Users\\No4sajiryuku\\.nuget\\packages\\",
-        "outputPath": "C:\\MVVMTest\\MVVMTest\\obj\\",
+        "outputPath": "C:\\fork\\MVVMTest\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
